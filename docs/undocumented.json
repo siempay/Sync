@@ -1,0 +1,726 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/DataFilter/DataFilter.swift",
+      "line": 9,
+      "symbol": "DataFilter.Operation",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/DataFilter/DataFilter.swift",
+      "line": 16,
+      "symbol": "DataFilter.Operation.insert",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/DataFilter/DataFilter.swift",
+      "line": 17,
+      "symbol": "DataFilter.Operation.update",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/DataFilter/DataFilter.swift",
+      "line": 18,
+      "symbol": "DataFilter.Operation.delete",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/DataFilter/DataFilter.swift",
+      "line": 19,
+      "symbol": "DataFilter.Operation.all",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/DataFilter/DataFilter.swift",
+      "line": 22,
+      "symbol": "DataFilter.changes(_:inEntityNamed:localPrimaryKey:remotePrimaryKey:context:inserted:updated:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/DataFilter/DataFilter.swift",
+      "line": 32,
+      "symbol": "DataFilter.changes(_:inEntityNamed:predicate:operations:localPrimaryKey:remotePrimaryKey:context:inserted:updated:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/DataStack/DataStack.swift",
+      "line": null,
+      "symbol": "DataStack",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/DataStack/DataStack.swift",
+      "line": 4,
+      "symbol": "DataStackStoreType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/DataStack/DataStack.swift",
+      "line": 5,
+      "symbol": "DataStackStoreType.inMemory",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/DataStack/DataStack.swift",
+      "line": 5,
+      "symbol": "DataStackStoreType.sqLite",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/DataStack/DataStack.swift",
+      "line": 7,
+      "symbol": "DataStackStoreType.type",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/DataStack/DataStack.swift",
+      "line": 17,
+      "symbol": "DataStack",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/DataStack/DataStack.swift",
+      "line": 18,
+      "symbol": "DataStack.storeType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/DataStack/DataStack.swift",
+      "line": 20,
+      "symbol": "DataStack.storeName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/DataStack/DataStack.swift",
+      "line": 22,
+      "symbol": "DataStack.modelName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/DataStack/DataStack.swift",
+      "line": 24,
+      "symbol": "DataStack.modelBundle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/DataStack/DataStack.swift",
+      "line": 26,
+      "symbol": "DataStack.model",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/DataStack/DataStack.swift",
+      "line": 28,
+      "symbol": "DataStack.containerURL",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/DataStack/DataStack.swift",
+      "line": 30,
+      "symbol": "DataStack.backgroundContextName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/DataStack/DataStack.swift",
+      "line": 55,
+      "symbol": "DataStack.writerContext",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/DataStack/DataStack.swift",
+      "line": 64,
+      "symbol": "DataStack.persistentStoreCoordinator",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/DataStack/DataStack.swift",
+      "line": 71,
+      "symbol": "DataStack.disposablePersistentStoreCoordinator",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/DataStack/DataStack.swift",
+      "line": 200,
+      "symbol": "DataStack.deinit",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/DataStack/DataStack.swift",
+      "line": 268,
+      "symbol": "DataStack.saveMainThread(completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/DataStack/DataStack.swift",
+      "line": 293,
+      "symbol": "DataStack.drop(completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/DataStack/DataStack.swift",
+      "line": 315,
+      "symbol": "DataStack.oldDrop(storeURL:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/DataStack/DataStack.swift",
+      "line": 362,
+      "symbol": "DataStack.mainContextDidSave(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/DataStack/DataStack.swift",
+      "line": 371,
+      "symbol": "DataStack.newDisposableMainContextWillSave(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/DataStack/DataStack.swift",
+      "line": 378,
+      "symbol": "DataStack.backgroundContextDidSave(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/DataStack/DataStack.swift",
+      "line": 395,
+      "symbol": "DataStack.backgroundConcurrencyType()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/DataStack/DataStack.swift",
+      "line": 399,
+      "symbol": "DataStack.performSelectorForBackgroundContext()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/DataStack/DataStack.swift",
+      "line": 405,
+      "symbol": "NSPersistentStoreCoordinator.addPersistentStore(storeType:bundle:modelName:storeName:containerURL:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/DataStack/DataStack.swift",
+      "line": 464,
+      "symbol": "NSManagedObjectModel.init(bundle:name:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/DataStack/DataStack.swift",
+      "line": 476,
+      "symbol": "NSError.init(info:previousError:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/PropertyMapper/NSManagedObject+Export.swift",
+      "line": 8,
+      "symbol": "InflectionType.snakeCase",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/PropertyMapper/NSManagedObject+Export.swift",
+      "line": 9,
+      "symbol": "InflectionType.camelCase",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/PropertyMapper/NSManagedObject+Export.swift",
+      "line": 18,
+      "symbol": "RelationshipType.array",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/PropertyMapper/NSManagedObject+Export.swift",
+      "line": 19,
+      "symbol": "RelationshipType.nested",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/PropertyMapper/NSManagedObject+Export.swift",
+      "line": 20,
+      "symbol": "RelationshipType.none",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/PropertyMapper/NSManagedObject+Export.swift",
+      "line": 23,
+      "symbol": "ExportOptions",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/PropertyMapper/NSManagedObject+Export.swift",
+      "line": 24,
+      "symbol": "ExportOptions.inflectionType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/PropertyMapper/NSManagedObject+Export.swift",
+      "line": 25,
+      "symbol": "ExportOptions.relationshipType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/PropertyMapper/NSManagedObject+Export.swift",
+      "line": 26,
+      "symbol": "ExportOptions.dateFormatter",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/PropertyMapper/NSManagedObject+Export.swift",
+      "line": 28,
+      "symbol": "ExportOptions.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/PropertyMapper/NSManagedObject+Export.swift",
+      "line": 89,
+      "symbol": "DateFormatter.default()",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/PropertyMapper/NSManagedObject+Export.swift",
+      "line": 94,
+      "symbol": "ExportStorage",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/PropertyMapper/NSManagedObject+Export.swift",
+      "line": 95,
+      "symbol": "ExportStorage.formatter",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/PropertyMapper/NSManagedObject+Export.swift",
+      "line": 103,
+      "symbol": "ExportStorage.shared",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/Sync/NSManagedObjectContext+Sync.swift",
+      "line": 33,
+      "symbol": "NSManagedObjectContext.managedObjectIDs(in:usingAsKey:predicate:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/Sync/Result.swift",
+      "line": 35,
+      "symbol": "Result.success",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/Sync/Result.swift",
+      "line": 36,
+      "symbol": "Result.failure",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/Sync/Sync+NSManagedObjectContext.swift",
+      "line": 17,
+      "symbol": "NSManagedObjectContext.changes(_:inEntityNamed:predicate:parent:parentRelationship:operations:completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/Sync/Sync+NSManagedObjectContext.swift",
+      "line": 121,
+      "symbol": "Sync.changes(_:inEntityNamed:predicate:parent:parentRelationship:inContext:operations:completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/Sync/Sync+ObjC.swift",
+      "line": 6,
+      "symbol": "CompatibleOperationOptions.insert",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/Sync/Sync+ObjC.swift",
+      "line": 7,
+      "symbol": "CompatibleOperationOptions.update",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/Sync/Sync+ObjC.swift",
+      "line": 8,
+      "symbol": "CompatibleOperationOptions.delete",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/Sync/Sync+ObjC.swift",
+      "line": 9,
+      "symbol": "CompatibleOperationOptions.insertUpdate",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/Sync/Sync+ObjC.swift",
+      "line": 10,
+      "symbol": "CompatibleOperationOptions.insertDelete",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/Sync/Sync+ObjC.swift",
+      "line": 11,
+      "symbol": "CompatibleOperationOptions.updateDelete",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/Sync/Sync+ObjC.swift",
+      "line": 12,
+      "symbol": "CompatibleOperationOptions.all",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/Sync/Sync.swift",
+      "line": null,
+      "symbol": "Sync",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/Sync/Sync.swift",
+      "line": null,
+      "symbol": "Sync",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/Sync/Sync.swift",
+      "line": null,
+      "symbol": "Sync",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/Sync/Sync.swift",
+      "line": null,
+      "symbol": "Sync",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/Sync/Sync.swift",
+      "line": null,
+      "symbol": "Sync",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/Sync/Sync.swift",
+      "line": 4,
+      "symbol": "SyncDelegate",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/Sync/Sync.swift",
+      "line": 17,
+      "symbol": "Sync",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/Sync/Sync.swift",
+      "line": 18,
+      "symbol": "Sync.delegate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/Sync/Sync.swift",
+      "line": 20,
+      "symbol": "Sync.OperationOptions",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/Sync/Sync.swift",
+      "line": 27,
+      "symbol": "Sync.OperationOptions.insert",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/Sync/Sync.swift",
+      "line": 28,
+      "symbol": "Sync.OperationOptions.update",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/Sync/Sync.swift",
+      "line": 29,
+      "symbol": "Sync.OperationOptions.delete",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/Sync/Sync.swift",
+      "line": 30,
+      "symbol": "Sync.OperationOptions.insertRelationships",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/Sync/Sync.swift",
+      "line": 31,
+      "symbol": "Sync.OperationOptions.updateRelationships",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/Sync/Sync.swift",
+      "line": 32,
+      "symbol": "Sync.OperationOptions.deleteRelationships",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/Sync/Sync.swift",
+      "line": 33,
+      "symbol": "Sync.OperationOptions.all",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/Sync/Sync.swift",
+      "line": 35,
+      "symbol": "Sync.OperationOptions.relationshipOperations()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/Sync/Sync.swift",
+      "line": 54,
+      "symbol": "Sync.downloadFinished",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/Sync/Sync.swift",
+      "line": 55,
+      "symbol": "Sync.downloadExecuting",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/Sync/Sync.swift",
+      "line": 56,
+      "symbol": "Sync.downloadCancelled",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/Sync/Sync.swift",
+      "line": 58,
+      "symbol": "Sync.isFinished",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/Sync/Sync.swift",
+      "line": 62,
+      "symbol": "Sync.isExecuting",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/Sync/Sync.swift",
+      "line": 66,
+      "symbol": "Sync.isCancelled",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/Sync/Sync.swift",
+      "line": 70,
+      "symbol": "Sync.isAsynchronous",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/Sync/Sync.swift",
+      "line": 74,
+      "symbol": "Sync.changes",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/Sync/Sync.swift",
+      "line": 75,
+      "symbol": "Sync.entityName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/Sync/Sync.swift",
+      "line": 76,
+      "symbol": "Sync.predicate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/Sync/Sync.swift",
+      "line": 77,
+      "symbol": "Sync.filterOperations",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/Sync/Sync.swift",
+      "line": 78,
+      "symbol": "Sync.parent",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/Sync/Sync.swift",
+      "line": 79,
+      "symbol": "Sync.parentRelationship",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/Sync/Sync.swift",
+      "line": 80,
+      "symbol": "Sync.context",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/Sync/Sync.swift",
+      "line": 81,
+      "symbol": "Sync.dataStack",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/Sync/Sync.swift",
+      "line": 83,
+      "symbol": "Sync.init(changes:inEntityNamed:predicate:parent:parentRelationship:context:dataStack:operations:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/Sync/Sync.swift",
+      "line": 94,
+      "symbol": "Sync.updateExecuting(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/Sync/Sync.swift",
+      "line": 100,
+      "symbol": "Sync.updateFinished(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/Sync/Sync.swift",
+      "line": 106,
+      "symbol": "Sync.start()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/Sync/Sync.swift",
+      "line": 124,
+      "symbol": "Sync.perform(using:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/Sync/Sync.swift",
+      "line": 139,
+      "symbol": "Sync.cancel()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/Sync/Sync.swift",
+      "line": 140,
+      "symbol": "Sync.cancel().updateCancelled(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/Sync/Sync.swift",
+      "line": 149,
+      "symbol": "Sync.changes(_:inEntityNamed:predicate:parent:parentRelationship:inContext:operations:shouldContinueBlock:objectJSONBlock:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/Sync/Sync.swift",
+      "line": 194,
+      "symbol": "Sync.verifyContextSafety(context:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brahim/Xcode/Sync/Source/TestCheck/TestCheck.swift",
+      "line": 31,
+      "symbol": "TestCheck",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/brahim/Xcode/Sync"
+}

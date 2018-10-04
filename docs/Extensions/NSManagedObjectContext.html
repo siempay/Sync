@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>NSManagedObjectContext Extension Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Extension/NSManagedObjectContext" class="dashAnchor"></a>
+    <a title="NSManagedObjectContext Extension Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">Sync Docs</a> (46% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">Sync Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        NSManagedObjectContext Extension Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/DataFilter.html">DataFilter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DataFilter/Operation.html">– Operation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DataStack.html">DataStack</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ExportStorage.html">ExportStorage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Sync.html">Sync</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Sync/OperationOptions.html">– OperationOptions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TestCheck.html">TestCheck</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/CompatibleOperationOptions.html">CompatibleOperationOptions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DataStackStoreType.html">DataStackStoreType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/InflectionType.html">InflectionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/RelationshipType.html">RelationshipType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Result.html">Result</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/DateFormatter.html">DateFormatter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/FileManager.html">FileManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSEntityDescription.html">NSEntityDescription</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSError.html">NSError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSManagedObject.html">NSManagedObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSManagedObjectContext.html">NSManagedObjectContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSManagedObjectModel.html">NSManagedObjectModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSPersistentContainer.html">NSPersistentContainer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSPersistentStoreCoordinator.html">NSPersistentStoreCoordinator</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/SyncDelegate.html">SyncDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/ExportOptions.html">ExportOptions</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>NSManagedObjectContext</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">class</span> <span class="kt">NSManagedObjectContext</span> <span class="p">:</span> <span class="kt">NSObject</span><span class="p">,</span> <span class="kt">NSCoding</span><span class="p">,</span> <span class="kt">NSLocking</span></code></pre>
+
+                </div>
+              </div>
+            
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So22NSManagedObjectContextC4SyncE04safeB0So0aB0CSgSS_ypSg15localPrimaryKeyAG6parentSSSg0I16RelationshipNametF"></a>
+                    <a name="//apple_ref/swift/Method/safeObject(_:localPrimaryKey:parent:parentRelationshipName:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So22NSManagedObjectContextC4SyncE04safeB0So0aB0CSgSS_ypSg15localPrimaryKeyAG6parentSSSg0I16RelationshipNametF">safeObject(_:localPrimaryKey:parent:parentRelationshipName:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Safely fetches a NSManagedObject in the current context. If no localPrimaryKey is provided then it will check for the parent entity and use that. Otherwise it will return nil.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">safeObject</span><span class="p">(</span><span class="n">_</span> <span class="nv">entityName</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">localPrimaryKey</span><span class="p">:</span> <span class="kt">Any</span><span class="p">?,</span> <span class="nv">parent</span><span class="p">:</span> <span class="kt">NSManagedObject</span><span class="p">?,</span> <span class="nv">parentRelationshipName</span><span class="p">:</span> <span class="kt">String</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">NSManagedObject</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>entityName</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The name of the Core Data entity.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>localPrimaryKey</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The primary key.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parent</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parent of the object.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parentRelationshipName</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The name of the relationship with the parent.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A NSManagedObject contained in the provided context.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So22NSManagedObjectContextC4SyncE07managedB3IDss10DictionaryVys11AnyHashableVSo0aB2IDCGSS2in_SS10usingAsKeySo11NSPredicateCSg9predicatetF"></a>
+                    <a name="//apple_ref/swift/Method/managedObjectIDs(in:usingAsKey:predicate:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So22NSManagedObjectContextC4SyncE07managedB3IDss10DictionaryVys11AnyHashableVSo0aB2IDCGSS2in_SS10usingAsKeySo11NSPredicateCSg9predicatetF">managedObjectIDs(in:usingAsKey:predicate:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">managedObjectIDs</span><span class="p">(</span><span class="k">in</span> <span class="nv">entityName</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">usingAsKey</span> <span class="nv">attributeName</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">predicate</span><span class="p">:</span> <span class="kt">NSPredicate</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">AnyHashable</span> <span class="p">:</span> <span class="kt">NSManagedObjectID</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So22NSManagedObjectContextC4SyncE4syncySays10DictionaryVySSypGG_SS13inEntityNamedySo7NSErrorCSgcSg10completiontF"></a>
+                    <a name="//apple_ref/swift/Method/sync(_:inEntityNamed:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So22NSManagedObjectContextC4SyncE4syncySays10DictionaryVySSypGG_SS13inEntityNamedySo7NSErrorCSgcSg10completiontF">sync(_:inEntityNamed:completion:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Syncs the entity using the received array of dictionaries, maps one-to-many, many-to-many and one-to-one relationships.
+It also syncs relationships where only the id is present, for example if your model is: Company -&gt; Employee,
+and your employee has a company_id, it will try to sync using that ID instead of requiring you to provide the
+entire company object inside the employees dictionary.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">sync</span><span class="p">(</span><span class="n">_</span> <span class="nv">changes</span><span class="p">:</span> <span class="p">[[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">]],</span> <span class="n">inEntityNamed</span> <span class="nv">entityName</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="p">((</span><span class="n">_</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">NSError</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>changes</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The array of dictionaries used in the sync process.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>entityName</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The name of the entity to be synced.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completion</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The completion block, it returns an error if something in the Sync process goes wrong.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So22NSManagedObjectContextC4SyncE7changesySays10DictionaryVySSypGG_SS13inEntityNamedSo11NSPredicateCSg9predicateSo0aB0CSg6parentSo25NSRelationshipDescriptionCSg0L12RelationshipA2CC16OperationOptionsV10operationsySo7NSErrorCSgcSg10completiontF"></a>
+                    <a name="//apple_ref/swift/Method/changes(_:inEntityNamed:predicate:parent:parentRelationship:operations:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So22NSManagedObjectContextC4SyncE7changesySays10DictionaryVySSypGG_SS13inEntityNamedSo11NSPredicateCSg9predicateSo0aB0CSg6parentSo25NSRelationshipDescriptionCSg0L12RelationshipA2CC16OperationOptionsV10operationsySo7NSErrorCSgcSg10completiontF">changes(_:inEntityNamed:predicate:parent:parentRelationship:operations:completion:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">changes</span><span class="p">(</span><span class="n">_</span> <span class="nv">changes</span><span class="p">:</span> <span class="p">[[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">]],</span> <span class="n">inEntityNamed</span> <span class="nv">entityName</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">predicate</span><span class="p">:</span> <span class="kt">NSPredicate</span><span class="p">?,</span> <span class="nv">parent</span><span class="p">:</span> <span class="kt">NSManagedObject</span><span class="p">?,</span> <span class="nv">parentRelationship</span><span class="p">:</span> <span class="kt">NSRelationshipDescription</span><span class="p">?,</span> <span class="nv">operations</span><span class="p">:</span> <span class="kt"><a href="../Classes/Sync.html">Sync</a></span><span class="o">.</span><span class="kt">OperationOptions</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="p">((</span><span class="n">_</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">NSError</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So22NSManagedObjectContextC4SyncE4syncySays10DictionaryVySSypGG_SS13inEntityNamedSo11NSPredicateCSg9predicateSo0aB0CSg6parentySo7NSErrorCSgcSg10completiontF"></a>
+                    <a name="//apple_ref/swift/Method/sync(_:inEntityNamed:predicate:parent:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So22NSManagedObjectContextC4SyncE4syncySays10DictionaryVySSypGG_SS13inEntityNamedSo11NSPredicateCSg9predicateSo0aB0CSg6parentySo7NSErrorCSgcSg10completiontF">sync(_:inEntityNamed:predicate:parent:completion:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Syncs the entity using the received array of dictionaries, maps one-to-many, many-to-many and one-to-one relationships.
+It also syncs relationships where only the id is present, for example if your model is: Company -&gt; Employee,
+and your employee has a company_id, it will try to sync using that ID instead of requiring you to provide the
+entire company object inside the employees dictionary.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">sync</span><span class="p">(</span><span class="n">_</span> <span class="nv">changes</span><span class="p">:</span> <span class="p">[[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">]],</span> <span class="n">inEntityNamed</span> <span class="nv">entityName</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">predicate</span><span class="p">:</span> <span class="kt">NSPredicate</span><span class="p">?,</span> <span class="nv">parent</span><span class="p">:</span> <span class="kt">NSManagedObject</span><span class="p">?,</span> <span class="nv">completion</span><span class="p">:</span> <span class="p">((</span><span class="n">_</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">NSError</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>changes</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The array of dictionaries used in the sync process.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>entityName</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The name of the entity to be synced.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>predicate</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The predicate used to filter out changes, if you want to exclude some local items to be taken in account in the Sync process, you just need to provide this predicate.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parent</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parent of the synced items, useful if you are syncing the childs of an object, for example an Album has many photos, if this photos don&rsquo;t incldue the album&rsquo;s JSON object.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completion</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The completion block, it returns an error if something in the Sync process goes wrong.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So22NSManagedObjectContextC4SyncE5fetchxSgyp_SS13inEntityNamedtKSo0aB0CRbzlF"></a>
+                    <a name="//apple_ref/swift/Method/fetch(_:inEntityNamed:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So22NSManagedObjectContextC4SyncE5fetchxSgyp_SS13inEntityNamedtKSo0aB0CRbzlF">fetch(_:inEntityNamed:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Fetches a managed object for the provided primary key in an specific entity.</p>
+<div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    Core Data related issues.
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="n">fetch</span><span class="o">&lt;</span><span class="kt">ResultType</span><span class="o">&gt;</span><span class="p">(</span><span class="n">_</span> <span class="nv">id</span><span class="p">:</span> <span class="kt">Any</span><span class="p">,</span> <span class="n">inEntityNamed</span> <span class="nv">entityName</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">ResultType</span><span class="p">?</span> <span class="k">where</span> <span class="kt">ResultType</span> <span class="p">:</span> <span class="kt">NSManagedObject</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>id</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The primary key.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>entityName</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The name of the entity.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A managed object for a provided primary key in an specific entity.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So22NSManagedObjectContextC4SyncE14insertOrUpdatexs10DictionaryVySSypG_SS13inEntityNamedtKSo0aB0CRbzlF"></a>
+                    <a name="//apple_ref/swift/Method/insertOrUpdate(_:inEntityNamed:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So22NSManagedObjectContextC4SyncE14insertOrUpdatexs10DictionaryVySSypG_SS13inEntityNamedtKSo0aB0CRbzlF">insertOrUpdate(_:inEntityNamed:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Inserts or updates an object using the given changes dictionary in an specific entity.</p>
+<div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    Core Data related issues.
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="n">insertOrUpdate</span><span class="o">&lt;</span><span class="kt">ResultType</span><span class="o">&gt;</span><span class="p">(</span><span class="n">_</span> <span class="nv">changes</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">],</span> <span class="n">inEntityNamed</span> <span class="nv">entityName</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">ResultType</span> <span class="k">where</span> <span class="kt">ResultType</span> <span class="p">:</span> <span class="kt">NSManagedObject</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>changes</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The dictionary to be used to update or create the object.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>entityName</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The name of the entity.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The inserted or updated object. If you call this method from a background context, make sure to not use this on the main thread.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So22NSManagedObjectContextC4SyncE6updatexSgyp_s10DictionaryVySSypG4withSS13inEntityNamedtKSo0aB0CRbzlF"></a>
+                    <a name="//apple_ref/swift/Method/update(_:with:inEntityNamed:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So22NSManagedObjectContextC4SyncE6updatexSgyp_s10DictionaryVySSypG4withSS13inEntityNamedtKSo0aB0CRbzlF">update(_:with:inEntityNamed:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Updates an object using the given changes dictionary for the provided primary key in an specific entity.</p>
+<div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    Core Data related issues.
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="n">update</span><span class="o">&lt;</span><span class="kt">ResultType</span><span class="o">&gt;</span><span class="p">(</span><span class="n">_</span> <span class="nv">id</span><span class="p">:</span> <span class="kt">Any</span><span class="p">,</span> <span class="n">with</span> <span class="nv">changes</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">],</span> <span class="n">inEntityNamed</span> <span class="nv">entityName</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">ResultType</span><span class="p">?</span> <span class="k">where</span> <span class="kt">ResultType</span> <span class="p">:</span> <span class="kt">NSManagedObject</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>id</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The primary key.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>changes</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The dictionary to be used to update the object.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>entityName</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The name of the entity.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The updated object, if not found it returns nil. If you call this method from a background context, make sure to not use this on the main thread.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So22NSManagedObjectContextC4SyncE6deleteyyp_SS13inEntityNamedtKF"></a>
+                    <a name="//apple_ref/swift/Method/delete(_:inEntityNamed:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So22NSManagedObjectContextC4SyncE6deleteyyp_SS13inEntityNamedtKF">delete(_:inEntityNamed:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Deletes a managed object for the provided primary key in an specific entity.</p>
+<div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    Core Data related issues.
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">delete</span><span class="p">(</span><span class="n">_</span> <span class="nv">id</span><span class="p">:</span> <span class="kt">Any</span><span class="p">,</span> <span class="n">inEntityNamed</span> <span class="nv">entityName</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>id</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The primary key.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>entityName</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The name of the entity.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="https://github.com/3lvis/Sync" target="_blank" rel="external">Elvis Nuñez</a>. All rights reserved. (Last updated: 2018-10-04)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

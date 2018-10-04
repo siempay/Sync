@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sync  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a title="Sync  Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="index.html">Sync Docs</a> (46% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="index.html">Sync Reference</a>
+        <img id="carat" src="img/carat.png" />
+        Sync  Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Classes/DataFilter.html">DataFilter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/DataFilter/Operation.html">– Operation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/DataStack.html">DataStack</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/ExportStorage.html">ExportStorage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/Sync.html">Sync</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/Sync/OperationOptions.html">– OperationOptions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/TestCheck.html">TestCheck</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Enums/CompatibleOperationOptions.html">CompatibleOperationOptions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/DataStackStoreType.html">DataStackStoreType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/InflectionType.html">InflectionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/RelationshipType.html">RelationshipType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/Result.html">Result</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Extensions/DateFormatter.html">DateFormatter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/FileManager.html">FileManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/NSEntityDescription.html">NSEntityDescription</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/NSError.html">NSError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/NSManagedObject.html">NSManagedObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/NSManagedObjectContext.html">NSManagedObjectContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/NSManagedObjectModel.html">NSManagedObjectModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/NSPersistentContainer.html">NSPersistentContainer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/NSPersistentStoreCoordinator.html">NSPersistentStoreCoordinator</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Protocols/SyncDelegate.html">SyncDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Structs/ExportOptions.html">ExportOptions</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            
+            <p><img src="https://raw.githubusercontent.com/3lvis/Sync/master/Images/logo-v3.png" alt="Sync"></p>
+
+<p><strong>Sync</strong> eases your everyday job of parsing a JSON response and syncing it with Core Data. <strong>Sync</strong> is a lightweight Swift library that uses a convention-over-configuration paradigm to facilitate your workflow.</p>
+
+<div align = "center">
+  <a href="https://cocoapods.org/pods/Sync">
+<img src="https://img.shields.io/cocoapods/v/Sync.svg?style=flat" />
+  </a>
+  <a href="https://github.com/3lvis/Sync">
+    <img src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat" />
+  </a>
+  <a href="https://github.com/3lvis/Sync#installation">
+    <img src="https://img.shields.io/badge/compatible-swift%204.0-orange.svg" />
+  </a>
+</div>
+
+<div align = "center">
+  <a href="https://cocoapods.org/pods/Sync" target="blank">
+    <img src="https://img.shields.io/cocoapods/p/Sync.svg?style=flat" />
+  </a>
+  <a href="https://cocoapods.org/pods/Sync" target="blank">
+    <img src="https://img.shields.io/cocoapods/l/Sync.svg?style=flat" />
+  </a>
+  <a href="https://gitter.im/3lvis/Sync">
+    <img src="https://img.shields.io/gitter/room/nwjs/nw.js.svg" />
+  </a>
+  <br>
+  <br>
+</div>
+
+<p>Syncing JSON to Core Data is a repetitive tasks that often demands adding a lot of boilerplate code. Mapping attributes, mapping relationships, diffing for inserts, removals and updates are often tasks that don&rsquo;t change between apps. Taking this in account we took the challenge to abstract this into a library. <strong>Sync</strong> uses the knowledge of your Core Data model to infer all the mapping between your JSON and Core Data, once you use it, it feels so obvious that you&rsquo;ll wonder why you weren&rsquo;t doing this before.</p>
+
+<ul>
+<li>Automatic mapping of camelCase or snake_case JSON into Core Data</li>
+<li>Thread-safe saving, we handle retrieving and storing objects in the right threads</li>
+<li>Diffing of changes, updated, inserted and deleted objects (which are automatically purged for you)</li>
+<li>Auto-mapping of relationships (one-to-one, one-to-many and many-to-many)</li>
+<li>Smart-updates, only updates your <code>NSManagedObject</code>s if the server values are different from your local ones</li>
+<li>Uniquing, one Core Data entry per primary key</li>
+<li><code>NSOperation</code> subclass, any Sync process can be queued and cancelled at any time!</li>
+</ul>
+<h2 id='table-of-contents' class='heading'>Table of Contents</h2>
+
+<ul>
+<li><a href="#basic-example">Basic example</a></li>
+<li><a href="#demo-project">Demo project</a></li>
+<li><a href="#getting-started">Getting Started</a>
+
+<ul>
+<li><a href="#core-data-stack">Core Data Stack</a></li>
+<li><a href="#primary-key">Primary Key</a></li>
+<li><a href="#attribute-mapping">Attribute Mapping</a></li>
+<li><a href="#attribute-types">Attribute Types</a></li>
+<li><a href="#relationship-mapping">Relationship Mapping</a></li>
+<li><a href="#one-to-many">One-to-many</a></li>
+<li><a href="#one-to-many-simplified">One-to-many (simplified)</a></li>
+<li><a href="#one-to-one">One-to-one</a></li>
+<li><a href="#one-to-one-simplified">One-to-one (simplified)</a></li>
+<li><a href="#json-exporting">JSON Exporting</a></li>
+</ul></li>
+<li><a href="#faq">FAQ</a></li>
+<li><a href="#installation">Installation</a></li>
+<li><a href="#license">License</a></li>
+</ul>
+<h2 id='basic-example' class='heading'>Basic example</h2>
+<h3 id='model' class='heading'>Model</h3>
+
+<p><img src="https://raw.githubusercontent.com/3lvis/Sync/master/Images/one-to-many-swift.png" alt="Model"></p>
+<h3 id='json' class='heading'>JSON</h3>
+<pre class="highlight json"><code><span class="p">[</span><span class="w">
+  </span><span class="p">{</span><span class="w">
+    </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">6</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Shawn Merrill"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"email"</span><span class="p">:</span><span class="w"> </span><span class="s2">"shawn@ovium.com"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"created_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2014-02-14T04:30:10+00:00"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"updated_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2014-02-17T10:01:12+00:00"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"notes"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+      </span><span class="p">{</span><span class="w">
+        </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+        </span><span class="s2">"text"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Shawn Merril's diary, episode 1"</span><span class="p">,</span><span class="w">
+        </span><span class="s2">"created_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2014-03-11T19:11:00+00:00"</span><span class="p">,</span><span class="w">
+        </span><span class="s2">"updated_at"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2014-04-18T22:01:00+00:00"</span><span class="w">
+      </span><span class="p">}</span><span class="w">
+    </span><span class="p">]</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">]</span><span class="w">
+</span></code></pre>
+<h3 id='datastack' class='heading'>DataStack</h3>
+
+<p>DataStack is a wrapper on top of the Core Data boilerplate, it encapsulates dealing with NSPersistentStoreCoordinator and NSManageObjectContexts.</p>
+<pre class="highlight swift"><code><span class="k">self</span><span class="o">.</span><span class="n">dataStack</span> <span class="o">=</span> <span class="kt">DataStack</span><span class="p">(</span><span class="nv">modelName</span><span class="p">:</span> <span class="s">"DataModel"</span><span class="p">)</span>
+</code></pre>
+
+<p><a href="https://github.com/3lvis/Sync/blob/6723c1f9a07014024e0f8f2923d1930789cabb72/Source/DataStack/DataStack.swift#L77-L196">You can find here more ways of initializing your DataStack</a>.</p>
+<h3 id='sync' class='heading'>Sync</h3>
+<pre class="highlight swift"><code><span class="n">dataStack</span><span class="o">.</span><span class="nf">sync</span><span class="p">(</span><span class="n">json</span><span class="p">,</span> <span class="nv">inEntityNamed</span><span class="p">:</span> <span class="s">"User"</span><span class="p">)</span> <span class="p">{</span> <span class="n">error</span> <span class="k">in</span>
+    <span class="c1">// New objects have been inserted</span>
+    <span class="c1">// Existing objects have been updated</span>
+    <span class="c1">// And not found objects have been deleted</span>
+<span class="p">}</span>
+</code></pre>
+
+<p>Alternatively, if you only want to sync users that have been created in the last 24 hours, you could do this by using a <code>NSPredicate</code>.</p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">now</span> <span class="o">=</span> <span class="kt">NSDate</span><span class="p">()</span>
+<span class="k">let</span> <span class="nv">yesterday</span> <span class="o">=</span> <span class="n">now</span><span class="o">.</span><span class="nf">dateByAddingTimeInterval</span><span class="p">(</span><span class="o">-</span><span class="mf">24*60*</span><span class="mi">60</span><span class="p">)</span>
+<span class="k">let</span> <span class="nv">predicate</span> <span class="o">=</span> <span class="kt">NSPredicate</span><span class="p">(</span><span class="nv">format</span><span class="p">:</span><span class="s">@"createdAt &gt; %@"</span><span class="p">,</span> <span class="n">yesterday</span><span class="p">)</span>
+
+<span class="n">dataStack</span><span class="o">.</span><span class="nf">sync</span><span class="p">(</span><span class="n">json</span><span class="p">,</span> <span class="nv">inEntityNamed</span><span class="p">:</span> <span class="s">"User"</span><span class="p">,</span> <span class="nv">predicate</span><span class="p">:</span> <span class="n">predicate</span><span class="p">)</span> <span class="p">{</span> <span class="n">error</span> <span class="k">in</span>
+    <span class="c1">//..</span>
+<span class="p">}</span>
+</code></pre>
+<h2 id='demo-project' class='heading'>Demo Project</h2>
+
+<p><a href="/iOSDemo">We have a simple demo project</a> of how to set up and use Sync to fetch data from the network and display it in a UITableView. The demo project features both <a href="https://github.com/3lvis/networking">Networking</a> and <a href="https://github.com/Alamofire/Alamofire">Alamofire</a> as the networking libraries.</p>
+<h3 id='datastack-with-storyboards' class='heading'>DataStack with Storyboards</h3>
+
+<p>Configuring a DataStack with Storyboard is different than doing it via dependency injection here you&rsquo;ll find a sample project in how to achieve this setup.</p>
+
+<p><a href="https://github.com/3lvis/StoryboardDemo">https://github.com/3lvis/StoryboardDemo</a></p>
+<h2 id='getting-started' class='heading'>Getting Started</h2>
+<h3 id='core-data-stack' class='heading'>Core Data Stack</h3>
+
+<p>Replace your Core Data stack with an instance of <a href="https://github.com/3lvis/Sync/blob/master/docs/DataStack.md">DataStack</a>.</p>
+<pre class="highlight swift"><code><span class="k">self</span><span class="o">.</span><span class="n">dataStack</span> <span class="o">=</span> <span class="kt">DataStack</span><span class="p">(</span><span class="nv">modelName</span><span class="p">:</span> <span class="s">"Demo"</span><span class="p">)</span>
+</code></pre>
+<h3 id='primary-key' class='heading'>Primary key</h3>
+
+<p>Sync requires your entities to have a primary key, this is important for diffing, otherwise Sync doesn’t know how to differentiate between entries.</p>
+
+<p>By default <strong>Sync</strong> uses <code>id</code> from the JSON and <code>id</code> (or <code>remoteID</code>) from Core Data as the primary key.</p>
+
+<p>You can mark any attribute as primary key by adding <code>sync.isPrimaryKey</code> and the value <code>true</code> (or <code>YES</code>). For example, in our <a href="https://github.com/3lvis/DesignerNewsDemo">Designer News</a> project we have a <code>Comment</code> entity that uses <code>body</code> as the primary key.</p>
+
+<p><img src="https://raw.githubusercontent.com/3lvis/Sync/master/Images/custom-primary-key-v3.png" alt="Custom primary key"></p>
+
+<p>If you add the flag <code>sync.isPrimaryKey</code> to the attribute <code>contractID</code> then:</p>
+
+<ul>
+<li>Local primary key will be: <code>contractID</code></li>
+<li>Remote primary key will be: <code>contract_id</code></li>
+</ul>
+
+<p>If you want to use <code>id</code> for the remote primary key you also have to add the flag <code>sync.remoteKey</code> and write <code>id</code> as the value.</p>
+
+<ul>
+<li>Local primary key will be: <code>articleBody</code></li>
+<li>Remote primary key will be: <code>id</code></li>
+</ul>
+<h3 id='attribute-mapping' class='heading'>Attribute Mapping</h3>
+
+<p>Your attributes should match their JSON counterparts in <code>camelCase</code> notation instead of <code>snake_case</code>. For example <code>first_name</code> in the JSON maps to <code>firstName</code> in Core Data and <code>address</code> in the JSON maps to <code>address</code> in Core Data.</p>
+
+<p>There are some exception to this rule:</p>
+
+<ul>
+<li>Reserved attributes should be prefixed with the <code>entityName</code> (<code>type</code> becomes <code>userType</code>, <code>description</code> becomes <code>userDescription</code> and so on). In the JSON they don&rsquo;t need to change, you can keep <code>type</code> and <code>description</code> for example. A full list of reserved attributes can be found <a href="https://github.com/3lvis/Sync/blob/master/Source/PropertyMapper/NSManagedObject%2BPropertyMapperHelpers.m#L282-L284">here</a></li>
+<li>Attributes with acronyms will be normalized (<code>id</code>, <code>pdf</code>, <code>url</code>, <code>png</code>, <code>jpg</code>, <code>uri</code>, <code>json</code>, <code>xml</code>). For example <code>user_id</code> will be mapped to <code>userID</code> and so on. You can find the entire list of supported acronyms <a href="https://github.com/3lvis/Sync/blob/master/Source/Inflections/Inflections.m#L204-L206">here</a>.</li>
+</ul>
+
+<p>If you want to map your Core Data attribute with a JSON attribute that has different naming, you can do by adding <code>sync.remoteKey</code> in the user info box with the value you want to map.</p>
+
+<p><img src="https://raw.githubusercontent.com/3lvis/Sync/master/Images/custom-remote-key-v2.png" alt="Custom remote key"></p>
+<h3 id='attribute-types' class='heading'>Attribute Types</h3>
+<h4 id='array-dictionary' class='heading'>Array/Dictionary</h4>
+
+<p>To map <strong>arrays</strong> or <strong>dictionaries</strong> just set attributes as <code>Binary Data</code> on the Core Data modeler.</p>
+
+<p><img src="https://cloud.githubusercontent.com/assets/1088217/6973785/7d3767dc-d98d-11e4-8add-9c9421b5ed47.png" alt="screen shot 2015-04-02 at 11 10 11 pm"></p>
+<h4 id='retrieving-mapped-arrays' class='heading'>Retrieving mapped arrays</h4>
+<pre class="highlight json"><code><span class="p">{</span><span class="w">
+  </span><span class="s2">"hobbies"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+    </span><span class="s2">"football"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"soccer"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"code"</span><span class="w">
+  </span><span class="p">]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">hobbies</span> <span class="o">=</span> <span class="kt">NSKeyedUnarchiver</span><span class="o">.</span><span class="nf">unarchiveObjectWithData</span><span class="p">(</span><span class="n">managedObject</span><span class="o">.</span><span class="n">hobbies</span><span class="p">)</span> <span class="k">as?</span> <span class="p">[</span><span class="kt">String</span><span class="p">]</span>
+<span class="c1">// ==&gt; "football", "soccer", "code"</span>
+</code></pre>
+<h4 id='retrieving-mapped-dictionaries' class='heading'>Retrieving mapped dictionaries</h4>
+<pre class="highlight json"><code><span class="p">{</span><span class="w">
+  </span><span class="s2">"expenses"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="s2">"cake"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="mf">12.50</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"juice"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="mf">0.50</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">expenses</span> <span class="o">=</span> <span class="kt">NSKeyedUnarchiver</span><span class="o">.</span><span class="nf">unarchiveObjectWithData</span><span class="p">(</span><span class="n">managedObject</span><span class="o">.</span><span class="n">expenses</span><span class="p">)</span> <span class="k">as?</span> <span class="p">[</span><span class="kt">String</span><span class="p">:</span> <span class="kt">Double</span><span class="p">]</span>
+<span class="c1">// ==&gt; "cake" : 12.50, "juice" : 0.50</span>
+</code></pre>
+<h4 id='dates' class='heading'>Dates</h4>
+
+<p>We went for supporting <a href="http://en.wikipedia.org/wiki/ISO_8601">ISO8601</a> and unix timestamp out of the box because those are the most common formats when parsing dates, also we have a <a href="https://github.com/3lvis/Sync/blob/master/Source/DateParser/NSDate%2BPropertyMapper.m">quite performant way to parse this strings</a> which overcomes the <a href="http://blog.soff.es/how-to-drastically-improve-your-app-with-an-afternoon-and-instruments/">performance issues of using <code>NSDateFormatter</code></a>.</p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">values</span> <span class="o">=</span> <span class="p">[</span><span class="s">"created_at"</span> <span class="p">:</span> <span class="s">"2014-01-01T00:00:00+00:00"</span><span class="p">,</span>
+              <span class="s">"updated_at"</span> <span class="p">:</span> <span class="s">"2014-01-02"</span><span class="p">,</span>
+              <span class="s">"published_at"</span><span class="p">:</span> <span class="s">"1441843200"</span>
+              <span class="s">"number_of_attendes"</span><span class="p">:</span> <span class="mi">20</span><span class="p">]</span>
+
+<span class="n">managedObject</span><span class="o">.</span><span class="nf">fill</span><span class="p">(</span><span class="n">values</span><span class="p">)</span>
+
+<span class="k">let</span> <span class="nv">createdAt</span> <span class="o">=</span> <span class="n">managedObject</span><span class="o">.</span><span class="nf">value</span><span class="p">(</span><span class="nv">forKey</span><span class="p">:</span> <span class="s">"createdAt"</span><span class="p">)</span>
+<span class="c1">// ==&gt; "2014-01-01 00:00:00 +00:00"</span>
+
+<span class="k">let</span> <span class="nv">updatedAt</span> <span class="o">=</span> <span class="n">managedObject</span><span class="o">.</span><span class="nf">value</span><span class="p">(</span><span class="nv">forKey</span><span class="p">:</span> <span class="s">"updatedAt"</span><span class="p">)</span>
+<span class="c1">// ==&gt; "2014-01-02 00:00:00 +00:00"</span>
+
+<span class="k">let</span> <span class="nv">publishedAt</span> <span class="o">=</span> <span class="n">managedObject</span><span class="o">.</span><span class="nf">value</span><span class="p">(</span><span class="nv">forKey</span><span class="p">:</span> <span class="s">"publishedAt"</span><span class="p">)</span>
+<span class="c1">// ==&gt; "2015-09-10 00:00:00 +00:00"</span>
+</code></pre>
+<h3 id='relationship-mapping' class='heading'>Relationship mapping</h3>
+
+<p><strong>Sync</strong> will map your relationships to their JSON counterparts. In the <a href="#example-with-snake_case-in-swift">Example</a> presented at the beginning of this document you can see a very basic example of relationship mapping.</p>
+<h4 id='one-to-many' class='heading'>One-to-many</h4>
+
+<p>Lets consider the following Core Data model.</p>
+
+<p><img src="https://raw.githubusercontent.com/3lvis/Sync/master/Images/one-to-many-swift.png" alt="One-to-many"></p>
+
+<p>This model has a one-to-many relationship between <code>User</code> and <code>Note</code>, so in other words a user has many notes. Here can also find an inverse relationship to user on the Note model. This is required for Sync to have more context on how your models are presented. Finally, in the Core Data model there is a cascade relationship between user and note, so when a user is deleted all the notes linked to that user are also removed (you can specify any delete rule).</p>
+
+<p>So when Sync, looks into the following JSON, it will sync all the notes for that specific user, doing the necessary inverse relationship dance.</p>
+<pre class="highlight json"><code><span class="p">[</span><span class="w">
+  </span><span class="p">{</span><span class="w">
+    </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">6</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Shawn Merrill"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"notes"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+      </span><span class="p">{</span><span class="w">
+        </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+        </span><span class="s2">"text"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Shawn Merril's diary, episode 1"</span><span class="p">,</span><span class="w">
+      </span><span class="p">}</span><span class="w">
+    </span><span class="p">]</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">]</span><span class="w">
+</span></code></pre>
+<h4 id='one-to-many-simplified' class='heading'>One-to-many Simplified</h4>
+
+<p>As you can see this procedures require the full JSON object to be included, but when working with APIs, sometimes you already have synced all the required items. Sync supports this too.</p>
+
+<p>For example, in the one-to-many example, you have a user, that has many notes. If you already have synced all the notes then your JSON would only need the <code>notes_ids</code>, this can be an array of strings or integers. As a side-note only do this if you are 100% sure that all the required items (notes) have been synced, otherwise this relationships will get ignored and an error will be logged. Also if you want to remove all the notes from a user, just provide <code>&quot;notes_ids&quot;: null</code> and <strong>Sync</strong> will do the clean up for you.</p>
+<pre class="highlight json"><code><span class="p">[</span><span class="w">
+  </span><span class="p">{</span><span class="w">
+    </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">6</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Shawn Merrill"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"notes_ids"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="p">]</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">]</span><span class="w">
+</span></code></pre>
+<h4 id='one-to-one' class='heading'>One-to-one</h4>
+
+<p>A similar procedure is applied to one-to-one relationships. For example lets say you have the following model:</p>
+
+<p><img src="https://raw.githubusercontent.com/3lvis/Sync/master/Images/one-to-one-v2.png" alt="one-to-one"></p>
+
+<p>This model is simple, a user as a company. A compatible JSON would look like this:</p>
+<pre class="highlight json"><code><span class="p">[</span><span class="w">
+  </span><span class="p">{</span><span class="w">
+    </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">6</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Shawn Merrill"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"company"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+      </span><span class="s2">"text"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Facebook"</span><span class="p">,</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">]</span><span class="w">
+</span></code></pre>
+<h4 id='one-to-one-simplified' class='heading'>One-to-one Simplified</h4>
+
+<p>As you can see this procedures require the full JSON object to be included, but when working with APIs, sometimes you already have synced all the required items. Sync supports this too.</p>
+
+<p>For example, in the one-to-one example, you have a user, that has one company. If you already have synced all the companies then your JSON would only need the <code>company_id</code>. As a sidenote only do this if you are 100% sure that all the required items (companies) have been synced, otherwise this relationships will get ignored and an error will be logged. Also if you want to remove the company from the user, just provide <code>&quot;company_id&quot;: null</code> and <strong>Sync</strong> will do the clean up for you.</p>
+<pre class="highlight json"><code><span class="p">[</span><span class="w">
+  </span><span class="p">{</span><span class="w">
+    </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">6</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Shawn Merrill"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"company_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">]</span><span class="w">
+</span></code></pre>
+<h2 id='json-exporting' class='heading'>JSON Exporting</h2>
+
+<p>Sync provides an easy way to convert your NSManagedObject back into JSON. Just use the <code>export()</code> method.</p>
+<pre class="highlight objective_c"><code><span class="n">let</span> <span class="n">user</span> <span class="o">=</span> <span class="c1">//...</span>
+<span class="n">user</span><span class="p">.</span><span class="n">set</span><span class="p">(</span><span class="n">value</span><span class="o">:</span> <span class="s">"John"</span> <span class="k">for</span><span class="o">:</span> <span class="s">"firstName"</span><span class="p">)</span>
+<span class="n">user</span><span class="p">.</span><span class="n">set</span><span class="p">(</span><span class="n">value</span><span class="o">:</span> <span class="s">"Sid"</span> <span class="k">for</span><span class="o">:</span> <span class="s">"lastName"</span><span class="p">)</span>
+
+<span class="n">let</span> <span class="n">userValues</span> <span class="o">=</span> <span class="n">user</span><span class="p">.</span><span class="n">export</span><span class="p">()</span>
+</code></pre>
+
+<p>That&rsquo;s it, that&rsquo;s all you have to do, the keys will be magically transformed into a <code>snake_case</code> convention.</p>
+<pre class="highlight json"><code><span class="p">{</span><span class="w">
+  </span><span class="s2">"first_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"John"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"last_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Sid"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>
+<h3 id='excluding' class='heading'>Excluding</h3>
+
+<p>If you don&rsquo;t want to export certain attribute or relationship, you can prohibit exporting by adding <code>sync.nonExportable</code> in the user info of the excluded attribute or relationship.</p>
+
+<p><img src="https://raw.githubusercontent.com/3lvis/Sync/master/Images/pm-non-exportable.png" alt="non-exportable"></p>
+<h3 id='relationships' class='heading'>Relationships</h3>
+
+<p>It supports exporting relationships too.</p>
+<pre class="highlight json"><code><span class="s2">"first_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"John"</span><span class="p">,</span><span class="w">
+</span><span class="s2">"last_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Sid"</span><span class="p">,</span><span class="w">
+</span><span class="s2">"notes"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+  </span><span class="p">{</span><span class="w">
+    </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"text"</span><span class="p">:</span><span class="w"> </span><span class="s2">"This is the text for the note A"</span><span class="w">
+  </span><span class="p">},</span><span class="w">
+  </span><span class="p">{</span><span class="w">
+    </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"text"</span><span class="p">:</span><span class="w"> </span><span class="s2">"This is the text for the note B"</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">]</span><span class="w">
+</span></code></pre>
+
+<p>If you don&rsquo;t want relationships you can also ignore relationships:</p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">dictionary</span> <span class="o">=</span> <span class="n">user</span><span class="o">.</span><span class="nf">export</span><span class="p">(</span><span class="nv">using</span><span class="p">:</span> <span class="o">.</span><span class="n">excludedRelationships</span><span class="p">)</span>
+</code></pre>
+<pre class="highlight json"><code><span class="s2">"first_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"John"</span><span class="p">,</span><span class="w">
+</span><span class="s2">"last_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Sid"</span><span class="w">
+</span></code></pre>
+
+<p>Or get them as nested attributes, something that Ruby on Rails uses (<code>accepts_nested_attributes_for</code>), for example for a user that has many notes:</p>
+<pre class="highlight swift"><code><span class="k">var</span> <span class="nv">exportOptions</span> <span class="o">=</span> <span class="kt">ExportOptions</span><span class="p">()</span>
+<span class="n">exportOptions</span><span class="o">.</span><span class="n">relationshipType</span> <span class="o">=</span> <span class="o">.</span><span class="n">nested</span>
+<span class="k">let</span> <span class="nv">dictionary</span> <span class="o">=</span> <span class="n">user</span><span class="o">.</span><span class="nf">export</span><span class="p">(</span><span class="nv">using</span><span class="p">:</span> <span class="n">exportOptions</span><span class="p">)</span>
+</code></pre>
+<pre class="highlight json"><code><span class="s2">"first_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"John"</span><span class="p">,</span><span class="w">
+</span><span class="s2">"last_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Sid"</span><span class="p">,</span><span class="w">
+</span><span class="s2">"notes_attributes"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+  </span><span class="p">{</span><span class="w">
+    </span><span class="s2">"0"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+      </span><span class="s2">"text"</span><span class="p">:</span><span class="w"> </span><span class="s2">"This is the text for the note A"</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="s2">"1"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+      </span><span class="s2">"text"</span><span class="p">:</span><span class="w"> </span><span class="s2">"This is the text for the note B"</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">]</span><span class="w">
+</span></code></pre>
+<h2 id='faq' class='heading'>FAQ</h2>
+
+<p><a href="https://github.com/3lvis/Sync/blob/master/docs/faq.md">Check our FAQ document.</a></p>
+<h2 id='installation' class='heading'>Installation</h2>
+<h3 id='cocoapods' class='heading'>CocoaPods</h3>
+<pre class="highlight ruby"><code><span class="n">pod</span> <span class="s1">'Sync'</span><span class="p">,</span> <span class="s1">'~&gt; 5'</span>
+</code></pre>
+<h3 id='carthage' class='heading'>Carthage</h3>
+<pre class="highlight ruby"><code><span class="n">github</span> <span class="s2">"3lvis/Sync"</span> <span class="o">~&gt;</span> <span class="mf">5.0</span>
+</code></pre>
+<h3 id='supported-ios-os-x-watchos-and-tvos-versions' class='heading'>Supported iOS, OS X, watchOS and tvOS Versions</h3>
+
+<ul>
+<li>iOS 8 or above</li>
+<li>OS X 10.10 or above</li>
+<li>watchOS 2.0 or above</li>
+<li>tvOS 9.0 or above</li>
+</ul>
+<h2 id='backers' class='heading'>Backers</h2>
+
+<p>Love Sync? Consider supporting further development and support by becoming a patron:
+👉  <a href="https://www.patreon.com/3lvis">https://www.patreon.com/3lvis</a></p>
+<h2 id='license' class='heading'>License</h2>
+
+<p><strong>Sync</strong> is available under the MIT license. See the <a href="https://github.com/3lvis/Sync/blob/master/LICENSE.md">LICENSE</a> file for more info.</p>
+
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="https://github.com/3lvis/Sync" target="_blank" rel="external">Elvis Nuñez</a>. All rights reserved. (Last updated: 2018-10-04)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

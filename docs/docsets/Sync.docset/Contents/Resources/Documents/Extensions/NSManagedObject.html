@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>NSManagedObject Extension Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Extension/NSManagedObject" class="dashAnchor"></a>
+    <a title="NSManagedObject Extension Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">Sync Docs</a> (46% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">Sync Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        NSManagedObject Extension Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/DataFilter.html">DataFilter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DataFilter/Operation.html">– Operation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DataStack.html">DataStack</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ExportStorage.html">ExportStorage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Sync.html">Sync</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Sync/OperationOptions.html">– OperationOptions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TestCheck.html">TestCheck</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/CompatibleOperationOptions.html">CompatibleOperationOptions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DataStackStoreType.html">DataStackStoreType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/InflectionType.html">InflectionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/RelationshipType.html">RelationshipType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Result.html">Result</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/DateFormatter.html">DateFormatter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/FileManager.html">FileManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSEntityDescription.html">NSEntityDescription</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSError.html">NSError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSManagedObject.html">NSManagedObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSManagedObjectContext.html">NSManagedObjectContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSManagedObjectModel.html">NSManagedObjectModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSPersistentContainer.html">NSPersistentContainer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSPersistentStoreCoordinator.html">NSPersistentStoreCoordinator</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/SyncDelegate.html">SyncDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/ExportOptions.html">ExportOptions</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>NSManagedObject</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">class</span> <span class="kt">NSManagedObject</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                </div>
+              </div>
+            
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So15NSManagedObjectC4SyncE6exports10DictionaryVySSypGyF"></a>
+                    <a name="//apple_ref/swift/Method/export()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So15NSManagedObjectC4SyncE6exports10DictionaryVySSypGyF">export()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Fills the <code>NSManagedObject</code> with the contents of the dictionary using a convention-over-configuration paradigm mapping the Core Data attributes to their conterparts in JSON using snake_case.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">export</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The JSON dictionary to be used to fill the values of your <code>NSManagedObject</code>.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So15NSManagedObjectC4SyncE6exports10DictionaryVySSypGAC13ExportOptionsV5using_tF"></a>
+                    <a name="//apple_ref/swift/Method/export(using:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So15NSManagedObjectC4SyncE6exports10DictionaryVySSypGAC13ExportOptionsV5using_tF">export(using:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Fills the <code>NSManagedObject</code> with the contents of the dictionary using a convention-over-configuration paradigm mapping the Core Data attributes to their conterparts in JSON using snake_case.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">export</span><span class="p">(</span><span class="n">using</span> <span class="nv">options</span><span class="p">:</span> <span class="kt"><a href="../Structs/ExportOptions.html">ExportOptions</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>options</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The options used to export the JSON, such as inflection type, relationship type and date formatting.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The JSON dictionary to be used to fill the values of your <code>NSManagedObject</code>.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So15NSManagedObjectC4SyncE18sync_copyInContextABSo0abG0CF"></a>
+                    <a name="//apple_ref/swift/Method/sync_copyInContext(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So15NSManagedObjectC4SyncE18sync_copyInContextABSo0abG0CF">sync_copyInContext(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Using objectID to fetch an NSManagedObject from a NSManagedContext is quite unsafe,
+and has unexpected behaviour most of the time, although it has gotten better throught
+the years, it&rsquo;s a simple method with not many moving parts.</p>
+
+<p>Copy in context gives you a similar behaviour, just a bit safer.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">sync_copyInContext</span><span class="p">(</span><span class="n">_</span> <span class="nv">context</span><span class="p">:</span> <span class="kt">NSManagedObjectContext</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">NSManagedObject</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>context</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The context where the NSManagedObject will be taken</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A NSManagedObject copied in the provided context.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So15NSManagedObjectC4SyncE9sync_fillys10DictionaryVySSypG4with_ABSg6parentSo25NSRelationshipDescriptionCSg0H12RelationshipSo0aB7ContextC7contextA2CC16OperationOptionsV10operationsSbycSg19shouldContinueBlockA2GcSg15objectJSONBlocktF"></a>
+                    <a name="//apple_ref/swift/Method/sync_fill(with:parent:parentRelationship:context:operations:shouldContinueBlock:objectJSONBlock:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So15NSManagedObjectC4SyncE9sync_fillys10DictionaryVySSypG4with_ABSg6parentSo25NSRelationshipDescriptionCSg0H12RelationshipSo0aB7ContextC7contextA2CC16OperationOptionsV10operationsSbycSg19shouldContinueBlockA2GcSg15objectJSONBlocktF">sync_fill(with:parent:parentRelationship:context:operations:shouldContinueBlock:objectJSONBlock:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Syncs the entity using the received dictionary, maps one-to-many, many-to-many and one-to-one relationships.
+It also syncs relationships where only the id is present, for example if your model is: Company -&gt; Employee,
+and your employee has a company_id, it will try to sync using that ID instead of requiring you to provide the
+entire company object inside the employees dictionary.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">sync_fill</span><span class="p">(</span><span class="n">with</span> <span class="nv">dictionary</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">],</span> <span class="nv">parent</span><span class="p">:</span> <span class="kt">NSManagedObject</span><span class="p">?,</span> <span class="nv">parentRelationship</span><span class="p">:</span> <span class="kt">NSRelationshipDescription</span><span class="p">?,</span> <span class="nv">context</span><span class="p">:</span> <span class="kt">NSManagedObjectContext</span><span class="p">,</span> <span class="nv">operations</span><span class="p">:</span> <span class="kt"><a href="../Classes/Sync.html">Sync</a></span><span class="o">.</span><span class="kt">OperationOptions</span><span class="p">,</span> <span class="nv">shouldContinueBlock</span><span class="p">:</span> <span class="p">(()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span><span class="p">)?,</span> <span class="nv">objectJSONBlock</span><span class="p">:</span> <span class="p">((</span><span class="n">_</span> <span class="nv">objectJSON</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">])?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>dictionary</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The JSON with the changes to be applied to the entity.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parent</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parent of the entity, optional since many entities are orphans.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>dataStack</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The DataStack instance.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So15NSManagedObjectC4SyncE50sync_toManyRelationshipUsingIDsInsteadOfDictionaryySo25NSRelationshipDescriptionC_yp15localPrimaryKeytF"></a>
+                    <a name="//apple_ref/swift/Method/sync_toManyRelationshipUsingIDsInsteadOfDictionary(_:localPrimaryKey:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So15NSManagedObjectC4SyncE50sync_toManyRelationshipUsingIDsInsteadOfDictionaryySo25NSRelationshipDescriptionC_yp15localPrimaryKeytF">sync_toManyRelationshipUsingIDsInsteadOfDictionary(_:localPrimaryKey:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Syncs relationships where only the ids are present, for example if your model is: User &lt;&lt;-&gt;&gt; Tags (a user has many tags and a tag belongs to many users),
+and your tag has a users_ids, it will try to sync using those ID instead of requiring you to provide the entire users list inside each tag.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">sync_toManyRelationshipUsingIDsInsteadOfDictionary</span><span class="p">(</span><span class="n">_</span> <span class="nv">relationship</span><span class="p">:</span> <span class="kt">NSRelationshipDescription</span><span class="p">,</span> <span class="nv">localPrimaryKey</span><span class="p">:</span> <span class="kt">Any</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>relationship</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The relationship to be synced.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>localPrimaryKey</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The localPrimaryKey of the relationship to be synced, usually an array of strings or numbers.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So15NSManagedObjectC4SyncE23sync_toManyRelationshipySo25NSRelationshipDescriptionC_s10DictionaryVySSypG10dictionaryABSg6parentAFSg0lG0So0aB7ContextC7contextA2CC16OperationOptionsV10operationsSbycSg19shouldContinueBlockA2IcSg15objectJSONBlocktKF"></a>
+                    <a name="//apple_ref/swift/Method/sync_toManyRelationship(_:dictionary:parent:parentRelationship:context:operations:shouldContinueBlock:objectJSONBlock:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So15NSManagedObjectC4SyncE23sync_toManyRelationshipySo25NSRelationshipDescriptionC_s10DictionaryVySSypG10dictionaryABSg6parentAFSg0lG0So0aB7ContextC7contextA2CC16OperationOptionsV10operationsSbycSg19shouldContinueBlockA2IcSg15objectJSONBlocktKF">sync_toManyRelationship(_:dictionary:parent:parentRelationship:context:operations:shouldContinueBlock:objectJSONBlock:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Syncs the entity&rsquo;s to-many relationship, it will also sync the childs of this relationship.</p>
+<div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    An exception that will throw if any of the underlaying operations fail.
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">sync_toManyRelationship</span><span class="p">(</span><span class="n">_</span> <span class="nv">relationship</span><span class="p">:</span> <span class="kt">NSRelationshipDescription</span><span class="p">,</span> <span class="nv">dictionary</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">],</span> <span class="nv">parent</span><span class="p">:</span> <span class="kt">NSManagedObject</span><span class="p">?,</span> <span class="nv">parentRelationship</span><span class="p">:</span> <span class="kt">NSRelationshipDescription</span><span class="p">?,</span> <span class="nv">context</span><span class="p">:</span> <span class="kt">NSManagedObjectContext</span><span class="p">,</span> <span class="nv">operations</span><span class="p">:</span> <span class="kt"><a href="../Classes/Sync.html">Sync</a></span><span class="o">.</span><span class="kt">OperationOptions</span><span class="p">,</span> <span class="nv">shouldContinueBlock</span><span class="p">:</span> <span class="p">(()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span><span class="p">)?,</span> <span class="nv">objectJSONBlock</span><span class="p">:</span> <span class="p">((</span><span class="n">_</span> <span class="nv">objectJSON</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">])?)</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>relationship</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The relationship to be synced.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>dictionary</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The JSON with the changes to be applied to the entity.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parent</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parent of the entity, optional since many entities are orphans.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parentRelationship</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The relationship from which the parent was referenced.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>context</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The NSManagedContext involving the current Core Data operation.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>operations</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The Sync.Operation options to be used for this operation.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>shouldContinueBlock</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A block that checks wheter the Sync process should continue to the next element or stop. This is used in conjunction to operations, if the operation is cancelled the Sync process will stop.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>objectJSONBlock</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A block that gives the oportunity to the called to act on the current processed JSON.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So15NSManagedObjectC4SyncE48sync_toOneRelationshipUsingIDInsteadOfDictionaryySo25NSRelationshipDescriptionC_yp15localPrimaryKeytF"></a>
+                    <a name="//apple_ref/swift/Method/sync_toOneRelationshipUsingIDInsteadOfDictionary(_:localPrimaryKey:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So15NSManagedObjectC4SyncE48sync_toOneRelationshipUsingIDInsteadOfDictionaryySo25NSRelationshipDescriptionC_yp15localPrimaryKeytF">sync_toOneRelationshipUsingIDInsteadOfDictionary(_:localPrimaryKey:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Syncs relationships where only the id is present, for example if your model is: Company -&gt; Employee,
+and your employee has a company_id, it will try to sync using that ID instead of requiring you to provide the
+entire company object inside the employees dictionary.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">sync_toOneRelationshipUsingIDInsteadOfDictionary</span><span class="p">(</span><span class="n">_</span> <span class="nv">relationship</span><span class="p">:</span> <span class="kt">NSRelationshipDescription</span><span class="p">,</span> <span class="nv">localPrimaryKey</span><span class="p">:</span> <span class="kt">Any</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>relationship</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The relationship to be synced.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>localPrimaryKey</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The localPrimaryKey of the relationship to be synced, usually a number or an integer.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>dataStack</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The DataStack instance.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So15NSManagedObjectC4SyncE22sync_toOneRelationshipySo25NSRelationshipDescriptionC_s10DictionaryVySSypG10dictionarySo0aB7ContextC7contextA2CC16OperationOptionsV10operationsSbycSg19shouldContinueBlockA2IcSg15objectJSONBlocktF"></a>
+                    <a name="//apple_ref/swift/Method/sync_toOneRelationship(_:dictionary:context:operations:shouldContinueBlock:objectJSONBlock:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So15NSManagedObjectC4SyncE22sync_toOneRelationshipySo25NSRelationshipDescriptionC_s10DictionaryVySSypG10dictionarySo0aB7ContextC7contextA2CC16OperationOptionsV10operationsSbycSg19shouldContinueBlockA2IcSg15objectJSONBlocktF">sync_toOneRelationship(_:dictionary:context:operations:shouldContinueBlock:objectJSONBlock:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Syncs the entity&rsquo;s to-one relationship, it will also sync the child of this entity.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">sync_toOneRelationship</span><span class="p">(</span><span class="n">_</span> <span class="nv">relationship</span><span class="p">:</span> <span class="kt">NSRelationshipDescription</span><span class="p">,</span> <span class="nv">dictionary</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">],</span> <span class="nv">context</span><span class="p">:</span> <span class="kt">NSManagedObjectContext</span><span class="p">,</span> <span class="nv">operations</span><span class="p">:</span> <span class="kt"><a href="../Classes/Sync.html">Sync</a></span><span class="o">.</span><span class="kt">OperationOptions</span><span class="p">,</span> <span class="nv">shouldContinueBlock</span><span class="p">:</span> <span class="p">(()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span><span class="p">)?,</span> <span class="nv">objectJSONBlock</span><span class="p">:</span> <span class="p">((</span><span class="n">_</span> <span class="nv">objectJSON</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">])?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>relationship</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The relationship to be synced.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>dictionary</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The JSON with the changes to be applied to the entity.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>dataStack</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The DataStack instance.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="https://github.com/3lvis/Sync" target="_blank" rel="external">Elvis Nuñez</a>. All rights reserved. (Last updated: 2018-10-04)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
